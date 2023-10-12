@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="center-text">Temperature Conversion</h1>
+    <h2 class="center-text">Select the initial temperature unit and destination temperature unit</h2>
+    <table class="center-table">
+        <tr>
+            <td>Initial unit</td>
+            <td>Destination unit</td>
+        </tr>
+        <tr>
+            <td>
+                <select id="fromUnit">
+                    <option value="celcius">Celcius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (°K)</option>
+                    <option value="reamur">Reamur (°R)</option>
+                </select>
+            </td>
+            <td>
+                <select id="toUnit">
+                    <option value="celcius">Celcius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (°K)</option>
+                    <option value="reamur">Reamur (°R)</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Temperature =
+                <form>
+                    <input type="number" id="inputValue">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="button-container">
+                    <button id="convertButton" class="button">Convert</button>
+                    <button id="resetButton" class="button">Reset</button>
+                    <button id="reverseButton" class="button">Reverse</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="center-text">The result = 
+            <span id="convertresult"></span></td>
+        </tr>
+    </table>
+    <p class="center-text">Formula =</p>
+    <p id="formulaDescription" class="center-text" ></p>
+    <script src="script/script.js"></script>
+</body>
+</html>

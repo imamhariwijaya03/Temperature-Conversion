@@ -1,0 +1,64 @@
+/* style.css */
+body {
+    background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1, h2, p {
+    color: #1e3c72;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-table {
+    margin: 0 auto;
+    background: #f7f7f7;
+    border-radius: 8px;
+    border-collapse: separate;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.center-table td {
+    padding: 10px;
+}
+
+.center-table select, .center-table input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background: #1e3c72;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #4a90e2;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#convertresult,
+#formulaDescription {
+    font-weight: bold;
+}
+
+
+
+
+
